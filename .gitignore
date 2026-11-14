@@ -1,0 +1,18 @@
+# Environment variables & secrets (NEVER commit to Git)
+.env
+.streamlit/secrets.toml
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# OS specific files
+.DS_Store
+Thumbs.db
