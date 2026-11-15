@@ -5,12 +5,13 @@
 ---
 
 ## 1. Thông Tin Sinh Viên & Thành Phố Lựa Chọn
-- **Họ và tên sinh viên:** [Họ và tên của bạn]
-- **Mã số sinh viên (MSSV):** [MSSV của bạn]
-- **Lớp / Khóa:** [Lớp của bạn]
+- **Họ và tên sinh viên:** Nguyễn Phúc Gia Bảo
+- **Mã số sinh viên (MSSV):** 25127018
+- **Lớp / Khóa:** 25C06
 - **Thành phố du lịch lựa chọn:** **Thành phố Đà Nẵng**
 - **Quy mô Cẩm nang du lịch (`knowledge_base.json`):** 15 mục chuẩn hóa (đầy đủ các trường `id`, `title`, `text`, `source`, `category`, `tags`).
-- **Đường dẫn Video Demo (thời lượng < 5 phút):** `[Dán đường link YouTube (Unlisted) hoặc Google Drive công khai tại đây]`
+- **Đường dẫn Video Demo (thời lượng < 5 phút):** `https://drive.google.com/file/d/1wuAUilW44nZyT85fbQCr85xkUqTEoEBG/view?usp=drive_link`
+- **Đường dẫn vào Repo:** `https://github.com/Kevincrazy678/CT_RAG.git`
 
 ---
 
@@ -22,7 +23,7 @@ Yêu cầu môi trường: **Python 3.10 trở lên** (khuyến nghị Python 3.
 Mở Terminal (PowerShell hoặc Command Prompt trên Windows, hoặc Bash trên Linux/macOS) tại thư mục dự án:
 ```bash
 # Clone repository từ GitHub
-git clone https://github.com/[your-username]/[your-repo].git
+git clone https://github.com/Kevincrazy678/CT_RAG.git
 cd [your-repo]
 
 # Tạo môi trường ảo Python
