@@ -107,9 +107,10 @@ def _authenticate(action: str, email: str, password: str) -> Dict[str, Any]:
         raise FirebaseError(
             "Email này đã được đăng ký tài khoản. Vui lòng chọn tab Đăng nhập."
         )
-    if "OPERATION_NOT_ALLOWED" in code:
+    if "OPERATION_NOT_ALLOWED" in code or "CONFIGURATION_NOT_FOUND" in code:
         raise FirebaseError(
-            "Tính năng Email/Password chưa được kích hoạt trong Firebase Console > Authentication > Sign-in method."
+            "Tính năng Email/Password chưa được kích hoạt trong Firebase Console. "
+            "Vui lòng vào Firebase Console > Build > Authentication > bấm 'Get Started' > chọn tab 'Sign-in method' > bật 'Email/Password' > bấm Save."
         )
     if "WEAK_PASSWORD" in code or "PASSWORD_DOES_NOT_MEET_REQUIREMENTS" in code:
         raise FirebaseError(
